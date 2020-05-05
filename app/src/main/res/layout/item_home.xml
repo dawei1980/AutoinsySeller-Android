@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="HardcodedText,RtlHardcoded,SpUsage">
+    <ImageView
+        android:id="@+id/home_news_iv"
+        android:layout_width="@dimen/dp_95"
+        android:layout_height="@dimen/dp_70"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/empty_image"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/home_news_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dp_15"
+        android:textColor="@color/black"
+        android:text="Android 编程下实现 Activity 的透明效果"
+        android:layout_toRightOf="@id/home_news_iv"
+        android:layout_marginTop="@dimen/dp_10"
+        android:singleLine="true"
+        android:ellipsize="end" />
+    <TextView
+        android:id="@+id/home_news_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dp_10"
+        android:textColor="@color/black"
+        android:text="通过配置 Activity 的样式来实现，在 AndroidManifest.xml 找到要实现透明效果的 Activity，在 Activity 的配置中添加如下的代码设置该 Activity 为透明样式，但这种实现方式只能实现纯透明的样式，无法调整透明度，所以这种实现方式有一定的局限性，但这种方式实现简单。"
+        android:layout_toRightOf="@id/home_news_iv"
+        android:layout_below="@id/home_news_title_tv"
+        android:layout_marginTop="@dimen/dp_5"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+    <TextView
+        android:id="@+id/home_news_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dp_15"
+        android:textColor="@color/gray_text"
+        android:layout_below="@id/home_news_content_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/dp_5"
+        android:text="2018-12-19"/>
+</RelativeLayout>

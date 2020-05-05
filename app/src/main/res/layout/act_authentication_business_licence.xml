@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <include layout="@layout/title_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center">
+        <RelativeLayout
+            android:id="@+id/upload_business_licence_layout"
+            android:layout_width="@dimen/dp_250"
+            android:layout_height="@dimen/dp_180"
+            android:background="@drawable/rect_corner_light_orange">
+            <ImageView
+                android:layout_width="@dimen/dp_220"
+                android:layout_height="@dimen/dp_150"
+                android:background="@mipmap/authentication_bg"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/dp_10"/>
+            <ImageView
+                android:id="@+id/business_licence_iv"
+                android:layout_width="@dimen/dp_200"
+                android:layout_height="@dimen/dp_130"
+                android:background="@mipmap/business_licence"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/dp_20"/>
+            <ImageView
+                android:id="@+id/business_licence_camera_iv"
+                android:layout_width="@dimen/dp_55"
+                android:layout_height="@dimen/dp_40"
+                android:background="@mipmap/camera"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/dp_30"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/dp_250"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/dp_15">
+            <EditText
+                android:id="@+id/input_business_licence_et"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_40"
+                android:hint="@string/input_business_licence_number"
+                android:paddingLeft="@dimen/dp_5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size_15"
+                android:background="@null"
+                tools:ignore="RtlHardcoded,SpUsage" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_2"
+                android:background="@color/orange_text"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/business_licence_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:background="@drawable/rect_corner_orange"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dp_15"
+        android:text="@string/finish_text"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginRight="@dimen/dp_30"
+        android:layout_marginBottom="@dimen/dp_40"
+        tools:ignore="SpUsage" />
+</LinearLayout>

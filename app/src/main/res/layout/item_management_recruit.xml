@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:ignore="SpUsage,HardcodedText,RtlHardcoded">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/recruit_management_title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp_15"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginRight="@dimen/dp_5"
+            android:text="easypoi功能如同名字easy"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_10">
+            <TextView
+                android:id="@+id/recruit_management_start_salary_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:textSize="@dimen/dp_15"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="1500" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:textSize="@dimen/dp_15"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5"
+                android:text="-" />
+            <TextView
+                android:id="@+id/recruit_management_end_salary_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:textSize="@dimen/dp_15"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="3500" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/recruit_management_company_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dp_15"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="easypoi功能如同名字easy" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|right"
+        android:layout_marginTop="@dimen/dp_10">
+        <Button
+            android:id="@+id/recruit_management_edit_btn"
+            android:layout_width="@dimen/dp_75"
+            android:layout_height="@dimen/dp_30"
+            android:text="@string/edit"
+            android:textColor="@color/text_green"
+            android:textSize="@dimen/dp_15"
+            android:background="@drawable/rect_corner_hollow_green"
+            android:layout_marginRight="@dimen/dp_10"/>
+        <Button
+            android:id="@+id/recruit_management_delete_btn"
+            android:layout_width="@dimen/dp_75"
+            android:layout_height="@dimen/dp_30"
+            android:text="@string/delete"
+            android:textColor="@color/red"
+            android:textSize="@dimen/dp_15"
+            android:background="@drawable/bg_red_hollow_rectangle"/>
+    </LinearLayout>
+</LinearLayout>

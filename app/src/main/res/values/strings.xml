@@ -1,0 +1,284 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="TypographyDashes,ExtraTranslation,MissingTranslation">
+    <string name="app_name">英沈汽配商家版</string>
+
+    <string name="home">首页</string>
+    <string name="discovery">发现</string>
+    <string name="message">消息</string>
+    <string name="mine">我的</string>
+
+    <!--Title-->
+    <string name="back">返回</string>
+    <string name="login_title_text">登录</string>
+
+    <!--login-->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="input_search_word">请输入搜索关键字</string>
+    <string name="telephone_number">服务热线：024-31040888</string>
+    <string name="input_mobile_num">手机号</string>
+    <string name="input_password">密码（6-20位字母，数字或组合）</string>
+    <string name="sms_code_login">短信验证码登录</string>
+    <string name="user_register">用户注册</string>
+    <string name="other_login">其他登录方式</string>
+    <string name="weichat">微信</string>
+    <string name="qq">QQ</string>
+    <string name="sina_blog">微博</string>
+    <string name="authentication">认证</string>
+
+    <!--首页-->
+    <string name="publish_goods_text">发布商品</string>
+    <string name="publish_service_text">发布服务</string>
+    <string name="wheel_service_text">发布救援</string>
+    <string name="publish_lease_text">发布租赁</string>
+    <string name="publish_recruit_text">发布招聘</string>
+    <string name="publish_trim_text">发布内饰</string>
+    <string name="order_delivery_text">快递下单</string>
+    <string name="publish_catch_order_text">快递抢单</string>
+    <string name="news_text">新闻咨询</string>
+    <string name="more_news">更多</string>
+
+    <!--注册-->
+    <string name="area">国家/地区</string>
+    <string name="area_code">中国（+86）</string>
+    <string name="verify_code">验证码</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="next">下一步</string>
+    <string name="already_read">我已阅读并同意</string>
+    <string name="protocol">《英沈汽配用户协议》</string>
+    <string name="remark">备注&#058;请将密码设置为6-20位，并且由字母，数字和符号两种以上组合。</string>
+    <string name="id_number">输入身份证号码</string>
+    <string name="upload_id_front">上传身份证正面</string>
+    <string name="upload_id_back">上传身份中背面</string>
+    <string name="input_business_licence_number">输入营业执照号码</string>
+    <string name="user_service_protocol">用户服务协议</string>
+    <string name="next_text">下一步</string>
+    <string name="finish_text">完成</string>
+    <string name="message_text">消息</string>
+
+    <!--我的-->
+    <string name="all_order_text">全部订单</string>
+    <string name="check_order">查看订单</string>
+    <string name="wait_send_stock">待发货</string>
+    <string name="wait_receive_stock">待签收</string>
+    <string name="wait_comment_stock">待评论</string>
+    <string name="exchange_stock">退货/售后</string>
+    <string name="goods_management_text">汽配管理</string>
+    <string name="ornament_management_text">内饰管理</string>
+    <string name="my_datum_text">我的资料</string>
+    <string name="address_management_text">地址管理</string>
+    <string name="change_pay_password_text">修改支付密码</string>
+    <string name="service_management_text">服务管理</string>
+    <string name="lease_management_text">租赁管理</string>
+    <string name="recuit_management_text">招聘管理</string>
+    <string name="rescue_mangement_text">救援管理</string>
+
+    <!--发现-->
+    <string name="add_friend">加好友</string>
+    <string name="already_friend">好友</string>
+
+    <!--新闻-->
+    <string name="news_title_text">新闻</string>
+    <string name="news_detail_text">新闻详情</string>
+
+    <!--发布服务-->
+    <string name="publish_service">发布服务</string>
+    <string name="service_name">服务名称&#058;</string>
+    <string name="input_service_name">请输入服务名称</string>
+    <string name="service_area">服务区域&#058;</string>
+    <string name="service_area_hint">请输入服务区域</string>
+    <string name="service_store_name">商家名称&#058;</string>
+    <string name="input_store_name">请输入商家名称</string>
+    <string name="contact">联系人&#058;</string>
+    <string name="input_contact">请输入联系人</string>
+    <string name="contact_phone_num">联系电话&#058;</string>
+    <string name="input_contact_phone">请输入联系电话</string>
+    <string name="service_address">服务地址&#058;</string>
+    <string name="input_service_address">请输入商家地址</string>
+    <string name="service_type">服务种类&#058;</string>
+    <string name="service_type_hint">请输入服务种类</string>
+    <string name="service_describe">服务描述&#058;</string>
+    <string name="input_service_describe">请输入描述(100个字符)</string>
+    <string name="upload_seller_shop_photo">上传店铺照片</string>
+
+    <!--上传图片-->
+    <string name="upload_image">上传多张图片</string>
+    <string name="upload_video">上传视频文件</string>
+    <string name="submit">提交</string>
+
+    <!--发布商品-->
+    <string name="publish_goods">发布商品</string>
+    <string name="goods_name">商品名称&#058;</string>
+    <string name="input_goods_name">请输入商品名称</string>
+    <string name="goods_quantity">商品数量&#058;</string>
+    <string name="input_goods_quantity">请输入商品数量</string>
+    <string name="product_place">商品产地&#058;</string>
+    <string name="input_goods_product_place">请输入商品产地</string>
+    <string name="type">商品类型</string>
+    <string name="goods_brand">品牌</string>
+    <string name="upload_single_image">上传商品图片</string>
+    <string name="motorcycle_frame_code">车架号&#058;</string>
+    <string name="input_motorcycle_frame_code">请输入车架号</string>
+    <string name="goods_price">商品价格&#058;</string>
+    <string name="input_goods_price">请输入商品价格</string>
+
+    <!--快递下单-->
+    <string name="order_express_delivery">快递下单</string>
+
+    <!--空白页-->
+    <string name="not_open">暂无开放，敬请期待</string>
+
+    <!--发布招聘-->
+    <string name="publish_recruit">发布招聘</string>
+    <string name="recruit_title">招聘标题&#058;</string>
+    <string name="input_recruit_title">请输入标题</string>
+    <string name="company_name">公司名称&#058;</string>
+    <string name="input_company_name">请输入公司名称</string>
+    <string name="salary_scope">薪资范围&#058;</string>
+    <string name="start_salary">最低薪资</string>
+    <string name="end_salary">最高薪资</string>
+    <string name="seller_address">公司地址&#058;</string>
+    <string name="input_company_address">请输入公司地址</string>
+    <string name="recruit_person_number">招聘人数&#058;</string>
+    <string name="input_person_number">请输入招聘人数</string>
+    <string name="contact_phone_number">联系电话&#058;</string>
+    <string name="input_contact_phone_number">请输入联系电话</string>
+    <string name="work_experience">工作经验&#058;</string>
+    <string name="input_work_experience">请输入工作经验</string>
+    <string name="education">学历要求&#058;</string>
+    <string name="input_education">请输入学历要求</string>
+    <string name="company_person_number">公司人数&#058;</string>
+    <string name="input_company_person_number">请输入公司人数</string>
+    <string name="line">--</string>
+
+    <!--发布租赁-->
+    <string name="lease_title">租赁标题&#058;</string>
+    <string name="input_lease_title">请输入租赁标题</string>
+    <string name="lease_stall_position">商铺位置&#058;</string>
+    <string name="input_lease_stall_position">请输入租赁商铺位置</string>
+    <string name="lease_price">租赁价格&#058;</string>
+    <string name="input_lease_price">请输入租赁价格</string>
+    <string name="lease_describe">租赁描述&#058;</string>
+    <string name="input_lease_describe">请输入租赁描述</string>
+    <string name="lease_contact">联系人&#058;</string>
+    <string name="input_lease_contact">请输入联系人</string>
+    <string name="lease_mobile_phone_num">联系电话&#058;</string>
+    <string name="input_lease_mobile_phone_num">请输入联系电话</string>
+    <string name="lease_term">租期&#058;</string>
+    <string name="lease_time_hint">请输入租期（年）</string>
+    <string name="acreage">面积&#058;</string>
+    <string name="acreage_hint">请输入面积(平方米)</string>
+    <string name="lease_info_source">信息来源&#058;</string>
+    <string name="lease_info_source_hint">请输入信息来源（个人或公司）</string>
+    <string name="publish_lease_title">发布租赁</string>
+
+    <!--发布内饰商品-->
+    <string name="publish_ornament">发布内饰</string>
+    <string name="goods_weight">商品重量&#058;</string>
+    <string name="input_goods_weight">请输入重量(kg)</string>
+    <string name="motorcycle_type">适用车型&#058;</string>
+    <string name="input_motorcycle_type">请输入适用车型</string>
+    <string name="ornament_type">饰品类型</string>
+
+    <!--道路救援-->
+    <string name="publish_rescue">发布救援</string>
+    <string name="rescue_title">标题&#058;</string>
+    <string name="input_title">请输入标题</string>
+    <string name="rescue_phone_number">联系电话&#058;</string>
+    <string name="input_contact_phone_num">请输入联系电话</string>
+    <string name="address_detail">详细地址&#058;</string>
+    <string name="input_address_detail">请输入详细地址</string>
+    <string name="service_scope">服务范围&#058;</string>
+    <string name="input_service_scope">请输入服务范围</string>
+    <string name="company_introduce">公司介绍&#058;</string>
+    <string name="input_company_introduce">请输入公司介绍(100个字符)</string>
+    <string name="rescue_company_name">公司名称&#058;</string>
+    <string name="input_rescue_company_name">请输入公司名称</string>
+
+    <!--设置-->
+    <string name="setting_text">设置</string>
+    <string name="upload_header">上传头像</string>
+    <string name="receive_address">收货地址</string>
+    <string name="account_binding">账户绑定</string>
+    <string name="nick_name">昵称</string>
+    <string name="bank_account_binding">绑定银行账号</string>
+    <string name="logout">退出登录</string>
+    <string name="nick_name_text">昵称&#058;</string>
+    <string name="input_nick_name">请输入昵称</string>
+
+    <!--通知-->
+    <string name="notice_center">通知</string>
+
+    <!--订单列表-->
+    <string name="all_order">全部订单</string>
+    <string name="send_goods_title">发货订单</string>
+    <string name="receive_goods_title">待收货</string>
+    <string name="appraise_title">订单评价</string>
+    <string name="refund_title">退货订单</string>
+    <string name="total">合计&#058;</string>
+    <string name="send_goods">去发货</string>
+    <string name="cancel_order">取消订单</string>
+    <string name="check_delivery">查看物流</string>
+    <string name="sign_receive">签收</string>
+    <string name="appraise_replay">评价回复</string>
+    <string name="refund">退款</string>
+    <string name="goods_unit_text">件商品</string>
+    <string name="delete_order_btn_text">删除订单</string>
+
+    <!--地址管理-->
+    <string name="new_address">新建地址</string>
+    <string name="address_management">地址管理</string>
+    <string name="receiver">收货人&#058;</string>
+    <string name="receiver_hint">请填写收货人姓名</string>
+    <string name="receiver_mobile_num">手机号码&#058;</string>
+    <string name="receiver_mobile_num_hint">请填写收货人手机号</string>
+    <string name="address_area">所在区域</string>
+    <string name="address_area_hint">省市区县，乡镇等</string>
+    <string name="receiver_address_detail">详细地址&#058;</string>
+    <string name="receiver_address_detail_hint">街道，楼牌号等</string>
+    <string name="set_default_text">设为默认地址</string>
+    <string name="delete_btn_text">删除</string>
+    <string name="edit_btn_text">修改</string>
+    <string name="add__new_address_text">新增收货地址</string>
+    <string name="save">保存</string>
+
+    <!--银行卡管理-->
+    <string name="bank_account_num">银行卡号&#058;</string>
+    <string name="bank_account_num_hint">请输入银行卡号</string>
+
+    <!--商品管理-->
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="goods_management">汽配商品管理</string>
+    <string name="ornament_management">内饰商品管理</string>
+    <string name="service_management">服务管理</string>
+    <string name="lease_management">租赁管理</string>
+    <string name="recuit_management">招聘管理</string>
+    <string name="rescue_management">道路救援管理</string>
+
+    <string name="add">添加</string>
+    <string name="circle">圈子</string>
+    <string name="publish_text">发表文字</string>
+
+    <string name="user_err_name_is_null">用户名不能为空</string>
+    <string name="password_is_empty">密码不能为空</string>
+    <string name="verify_code_is_empty">验证码不能为空</string>
+    <string name="param_error">参数错误</string>
+    <string name="request_error">请求错误</string>
+    <string name="upload_success">上传成功</string>
+
+    <string name="send_sms_code_fail">发送失败</string>
+    <string name="send_sms_code_success">发送成功</string>
+    <string name="user_already_register">用户已经注册</string>
+    <string name="unknow_account">未知账户</string>
+    <string name="error_password">密码错误</string>
+    <string name="account_is_lock">账户已锁</string>
+    <string name="excessive_attempts">您登录太频繁，请稍后重试</string>
+    <string name="login_fail">登陆失败</string>
+    <string name="save_address">地址已保存</string>
+
+    <string name="category_title_text">分类</string>
+    <string name="scan_qr_code">扫码</string>
+</resources>

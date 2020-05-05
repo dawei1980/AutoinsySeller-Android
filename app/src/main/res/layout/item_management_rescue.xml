@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/rescue_management_iv"
+            android:layout_width="@dimen/dp_70"
+            android:layout_height="@dimen/dp_70"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/default_product"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/rescue_management_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_15"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:text="easypoi功能如同名字easy,主打的功能就是容易,让一个没见接触过poi的人员 就可以方便的写出Excel导出,Excel模板导出,Excel导    入,Word模板导出,通过简单的注解和模板 语言(熟悉的表达式语法),完成以前复杂的写法" />
+            <TextView
+                android:id="@+id/rescue_management_service_content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_15"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:text="easypoi功能如同名字easy,主打的功能就是容易,让一个没见接触过poi的人员 就可以方便的写出Excel导出,Excel模板导出,Excel导    入,Word模板导出,通过简单的注解和模板 语言(熟悉的表达式语法),完成以前复杂的写法" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|right"
+        android:layout_marginTop="@dimen/dp_10">
+        <Button
+            android:id="@+id/rescue_management_edit_btn"
+            android:layout_width="@dimen/dp_75"
+            android:layout_height="@dimen/dp_30"
+            android:text="@string/edit"
+            android:textColor="@color/text_green"
+            android:textSize="@dimen/dp_15"
+            android:background="@drawable/rect_corner_hollow_green"
+            android:layout_marginRight="@dimen/dp_10"/>
+        <Button
+            android:id="@+id/rescue_management_delete_btn"
+            android:layout_width="@dimen/dp_75"
+            android:layout_height="@dimen/dp_30"
+            android:text="@string/delete"
+            android:textColor="@color/red"
+            android:textSize="@dimen/dp_15"
+            android:background="@drawable/bg_red_hollow_rectangle"/>
+    </LinearLayout>
+</LinearLayout>

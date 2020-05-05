@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="SpUsage,HardcodedText,RtlHardcoded" >
+    <RelativeLayout
+        android:id="@+id/address_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/address_receiver_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dp_15"
+            android:textColor="@color/black"
+            android:text="约翰尼德普" />
+        <TextView
+            android:id="@+id/address_mobile_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dp_15"
+            android:textColor="@color/black"
+            android:text="13998860635"
+            android:padding="@dimen/dp_2"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:id="@+id/address_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dp_15"
+            android:textColor="@color/black"
+            android:layout_below="@id/address_receiver_name"
+            android:layout_marginTop="@dimen/dp_5"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="这几天在做公司的项目，有这样一个需求，就是在listView里，点击item子项的时候需要保持item子项的选中状态，上网搜了一些资料，最后也实现了。现在就记录下来，一方面方便以后自己回顾好复习温故，另外也和大家分享。" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/address_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/gray_line_2"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_below="@id/address_info_layout"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address_line">
+        <ImageView
+            android:id="@+id/address_select_iv"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:gravity="center_vertical"
+            android:background="@mipmap/checked"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="@dimen/dp_5"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/dp_10"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dp_15"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@id/address_select_iv"
+            android:text="@string/set_default_text"
+            android:layout_centerVertical="true"/>
+
+        <Button
+            android:id="@+id/address_edit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_30"
+            android:background="@drawable/bg_red_hollow_rectangle"
+            android:text="@string/edit_btn_text"
+            android:textColor="@color/red"
+            android:textSize="@dimen/dp_15"
+            android:layout_toLeftOf="@id/address_delete_btn"/>
+        <Button
+            android:id="@+id/address_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_30"
+            android:background="@drawable/bg_red_hollow_rectangle"
+            android:textColor="@color/red"
+            android:textSize="@dimen/dp_15"
+            android:text="@string/delete_btn_text"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/dp_10"/>
+    </RelativeLayout>
+</RelativeLayout>
